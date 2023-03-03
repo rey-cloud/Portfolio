@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imgs/container.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo {
+    color: #3a3a3a;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+span {
+    color: #003366;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.nav {
+    padding: 30px;
+    text-decoration: none;
+    color: #3a3a3a;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+.login-btn, .signup-btn, button {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid #003366;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+    padding-top: 13px;
+}
+.signup-btn {
+    color: #003366;
+    background-color: #d8dde3;
+}
+.login-btn {
+    background-color: #003366;
+    color: white;
+}
+.login-btn:hover{
+    background-color: white;
+    color: #003366;
+    transform: scale(1.1);
+}
+.signup-btn:hover {
+    color: white;
+    background-color: #003366;
+    transform: scale(1.1);
+}
+a:hover {
+    color: #003366;
+    font-size: larger;
+    font-weight: bold;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1 {
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4 {
+    color: #003366;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.start {
+    margin-left: 8%;
+    color:#003366;
+    border: 3px solid #003366;
+    padding: 10px 100px 10px 100px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #2a4969;
+    color: white;
+    transition: .4s;
+}
+.start:hover {
+    color: #003366;
+    background-color: white;
+}
+.about-me {
+    width: 100%;
+    padding: 100px 300px ;
+}
+h2, h5, p {
+    text-align: center;
+}
+h2 {
+    font-size: 75px;
+}
+h5 {
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+}
